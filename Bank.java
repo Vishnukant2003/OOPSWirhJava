@@ -34,12 +34,12 @@ class BankAcc {
     }
 
     public void withdraw() {
-        System.err.println(2000 - balance);
+        System.err.println("withdraw" + (2000 - balance));
 
     }
 
     public void deposit() {
-        System.err.println(1000 + balance);
+        System.err.println("deposited succesfully " + (1000 + balance));
 
     }
 }
